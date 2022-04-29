@@ -1,1 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+body {
+    background: linear-gradient(244.94deg, rgba(58, 71, 182, 0.37) 10.94%, rgba(196, 196, 196, 0) 100%);
+    font-family: 'Poppins', sans-serif;
+    height: 1024px;
+    margin:auto;
+}
+
+/* Navigation */
+.nav-container {
+    height: 126px;   
+    background: linear-gradient(180deg, #6155AC 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.wrapper {
+    max-width: 1080px;  
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-items li a {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFFFFF;
+    transition: 1s all;
+}
+/* END NAV BAR */
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+}
+
+header p {
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+    height: 76px;
+}
+
+header  h1 {
+    font-size: 36px;
+    font-family: 'Poppins',sans-serif;
+    height: 250px;
+}
+
+header .image-bg {
+    position: relative;
+    margin: auto;
+}
+/* END HEADER */
+
+header .sign-up-btn a{
+    background: #5338F7;
+    border-radius: 15px;
+    font-size: 24px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 15px 50px;    
+}
+
+header .sign-up-btn a:hover {
+    background-color: #2400FF80;
+    color: #000000;
+    border-radius: 15px;
+    transition: 1s all;
+}
+
+
+
+
+
+
+
+
 
