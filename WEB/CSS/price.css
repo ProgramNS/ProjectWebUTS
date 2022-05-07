@@ -1,0 +1,119 @@
+* {
+    margin: 0 ;
+}
+
+body {
+    background: linear-gradient(244.94deg, rgba(58, 71, 182, 0.37) 10.94%, rgba(196, 196, 196, 0) 100%);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+.nav-container {
+    height: 200px;   
+    background: linear-gradient(180deg, #6155AC 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.wrapper {
+    max-width: 1080px;  
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav .logo {
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.nav-items li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.nav-items li a {
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #FFFFFF;
+    transition: 1s all;
+}
+/* END NAV BAR */
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+}
+/* END HEADER */
+
+/* BOX - SIZING AND TEXT DESIGN */
+.box-service {
+    position: relative;
+    width: 316px;
+    height: 400px;
+    margin: 20px 40px 50px 3px;
+    background: #FFFAFA;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.box-service h1 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    margin: 10px;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.box-service ul {
+    margin: 26px;
+}
+
+.box-service  li {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.btn-box {
+    background: #75E972;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins',sans-serif;
+    margin: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.btn-box:hover {
+    background-color: #FFFAFA;
+    font-style: italic;
+    transition-delay: 0.5s;
+    transition: 1s all ease-in-out;
+}
+
+
+
+
+

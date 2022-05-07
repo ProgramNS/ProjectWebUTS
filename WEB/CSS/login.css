@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0 ;
+}
+
+body {
+    background: linear-gradient(240.87deg, rgba(88, 61, 61, 0.21) 25.16%, rgba(196, 196, 196, 0) 89.73%);
+}
+/* Design text */
+.text-logo a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color : black;
+    padding: 10px;
+    font-weight: 500;
+    line-height: 150px;
+}
+
+.text-logo a:hover{
+    border: 1px solid;
+    color :green;
+    border-radius: 10px;
+    transition: 1s all ease-out;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    position: relative;
+    margin: 0;
+}
+
+.box-signUp {
+    width: 30rem;
+    height: 22rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    background: linear-gradient(240.87deg, rgba(88, 61, 61, 0.21) 25.16%, rgba(196, 196, 196, 0) 89.73%);;
+}
+
+.box-signUp h1 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+}
+
+form label {
+    margin: 90px;
+}
+
+form input[type=text],input[type=email],input[type = password]{
+    width: calc(100% - 30%);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border: 1px solid #7D6AA7;
+    border-radius: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+form input[type=checkbox] {
+    width: 20px;
+}
+
+.btn-login button{
+    width: 30%;
+    text-align: center;
+    margin: 15px;
+    margin-left: 170px;
+    background: #37C52B;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+
+.btn-login button:hover{
+    background: black;
+    color: #ffff;
+    transition: 0.5s all ease-in-out;
+    border-radius: 20px;
+}
